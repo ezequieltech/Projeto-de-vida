@@ -13,7 +13,7 @@ body {
   background: url('img/ChatGPT\ Image\ 21\ de\ abr.\ de\ 2026\,\ 18_45_14.png');
   color: var(--branco);
   font-family: "Chakra Petch", sans-serif;
-  background-repeat: no-repeat;;
+  background-size: cover;
 }
 
 .conteudo-principal {
