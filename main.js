@@ -15,5 +15,6 @@ for (let i = 0; i < botoes.length; i++) {
 }
 
 const contadores = document.querySelectorAll(".contadores");
+const tempoObjetivi1 = new Date("2025-10-05")
 
 contadores[0].textContent = "Contagem regressiva";
