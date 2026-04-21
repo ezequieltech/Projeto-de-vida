@@ -13,6 +13,7 @@ body {
   background: url('img/mira-meta-objetivo-alvo-1452202035264_956x500.jpg');
   color: var(--branco);
   font-family: "Chakra Petch", sans-serif;
+  background-size: cover;
 }
 
 .conteudo-principal {
