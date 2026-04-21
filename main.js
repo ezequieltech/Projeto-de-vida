@@ -27,12 +27,16 @@ let minutos = Math.floor(segundos/60);
 let horas = Math.floor(minutos/60);
 let dias = Math.floor(horas/24);
 let meses = Math.floor (dias/30);
+let anos = Math.floor (meses/12);
+
 
 
 segundos %= 60;
 minutos %= 60;
 horas %= 60;
 dias %= 24;
+meses %= 12;
 
-return meses + " meses " + dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
+return anos + " anos " +
+meses + " meses " + dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
 }
