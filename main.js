@@ -26,10 +26,13 @@ let segundos = Math.floor( tempoFinal/1000);
 let minutos = Math.floor(segundos/60);
 let horas = Math.floor(minutos/60);
 let dias = Math.floor(horas/24);
+let anos = Math.floor (dias/365);
+
 
 segundos %= 60;
 minutos %= 60;
 horas %= 60;
+dias %= 24;
 
-return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
+return anos + " anos " + dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
 }
