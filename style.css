@@ -57,6 +57,7 @@ body {
 
 .botoes {
   display: block;
+}
 
   .ativo{
     background-color: var(--botao-ativo);
@@ -65,6 +66,7 @@ body {
 
 .abas-textos {
   background-color: var(--texto-fundo);
+  padding: 40px;
 }
  
 @media screen and (min-width: 768px) {
@@ -75,4 +77,3 @@ body {
     border-radius: 0 40px 0 0;
   }
 } 
-
